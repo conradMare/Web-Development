@@ -1,0 +1,33 @@
+div {
+    display: block;
+}
+
+body {
+    color: #40514e;
+    text-align: center;
+}
+
+h1 {
+    color: #40514e;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+
+h2 {
+    color: #2e3c39;
+    font-family: "PT Serif", serif;
+}
+
+.top-container {
+    background-color: #FFF9D0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.title-text {
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    margin: 50px;
+}
