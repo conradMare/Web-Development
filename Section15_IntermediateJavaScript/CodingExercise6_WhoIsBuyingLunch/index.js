@@ -9,3 +9,5 @@ function whosPaying(names) {
     return randomPerson + " is going to buy lunch today!";
 
 }
+
+whosPaying();
