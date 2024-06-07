@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -11,20 +11,20 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #212a3e;
 }
 
 h1 {
-  margin: 30px;
+  margin: 20px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  font-size: 6rem;
+  color: #83B4FF;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #83B4FF;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -39,3 +39,5 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+/* Colors from https://colorhunt.co */
