@@ -1,6 +1,9 @@
 
-// Adding text to an element:
-$("h1").text("Bye");
+// Get value of attribute (Note 1 parameter):
+// console.log($("img").attr("src"));
 
-// Instead of writing .innerHTML with JS:
-$("button").html("<em>Hey</em>");
+// Set value of attribute (Note 2 parameters):
+$("a").attr("href", "https://www.yahoo.com");
+
+// REMEMBER -> Class is also an attribute:
+console.log($("h1").attr("class"));
