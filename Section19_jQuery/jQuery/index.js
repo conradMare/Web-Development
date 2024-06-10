@@ -1,5 +1,11 @@
 
+// Add element css property (2 parameters):
+//  $("h1").css("color", "green");
+
+// Retrieve element css property (1 parameter):
 // console.log($("h1").css("font-size"));
+
+// BEST PRACTICE -> SEPARATE CONCERNS!!!
 
 // Add class from "styles.css":
 // $("h1").addClass("big-title");
