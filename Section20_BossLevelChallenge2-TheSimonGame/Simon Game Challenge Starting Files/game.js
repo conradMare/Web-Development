@@ -1,5 +1,11 @@
-// alert("Hello");
+var gamePattern = [];
 
-// In browser console (Check if jQuery has been added successfully):
-$("h1");
-// ce.fn.init {0: h1#level-title, length: 1, prevObject: ce.fn.init}
+var buttonColours = ["red", "blue", "green", "yellow"];
+
+function nextSequence() {
+    var randomNumber = Math.floor(Math.random() * 4);
+
+    var randomChosenColour = buttonColours[randomNumber];
+
+    gamePattern.push(randomChosenColour);
+}
