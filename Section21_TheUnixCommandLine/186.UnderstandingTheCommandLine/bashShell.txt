@@ -1,0 +1,14 @@
+Kernel -> Core of Operating System.
+
+Shell -> User Interface, which allows you to interact with the Kernel,
+         which in return interacts with the hardware of the computer.
+
+         Two Variants: 1. Graphical User Interface (GUI)
+                       2. Command Line Interface (CLI)
+
+BASH (Bourne Again SHell) -> CLI Interpreter for the Unix System.
+
+Why use the Command Line?
+    1. Greater Control.
+    2. Speed.
+    3. Shows all files in a directory (including hidden files like config etc.).
