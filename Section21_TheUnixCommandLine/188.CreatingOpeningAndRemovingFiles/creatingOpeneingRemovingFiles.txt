@@ -1,0 +1,21 @@
+Using touch, open, start and rm: (Done in bash)
+
+1. mkdir <new folder name> -> Creates a new folder
+
+2. cd <new folder name> -> Navigate into the newly created folder
+
+3. touch <new file name> -> Creates an new file in the folder (REMEMBER TO ADD AN EXTENSION, like .txt etc.)
+
+4. start <file.extension> -> Opens a file (NOTE: For mac use "open")
+
+5. code Example.txt -> Open file in VSCode
+
+6. rm Example2.txt -> Delete/Remove a file
+
+7. clear -> Clears terminal
+
+8. pwd -> Print Working Directory - Display current directory
+
+9. rm * -> Delete/Remove ALL files in directory
+
+10. re -r <directory> -> Delete/Remove a directory (NOTE: -r flag)
