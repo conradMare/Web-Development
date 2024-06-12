@@ -1,0 +1,16 @@
+1. ls -> List files and directories
+
+2. cd -> Change Directory
+
+3. cd .. -> UP one directory (BACK one level)
+
+4. To navigate in the command line -> Use arrows (Left or Right), or hold down Alt+Mouse cursor,
+                                      to navigate to a specific position in the command line.
+
+5. To cycle through previous commands -> Use arrows (Up and Down).
+
+6. Go to BEGINNING of command line -> Ctrl+A
+
+7. Go to END of command line -> Ctrl+E
+
+8. To CLEAR the command line -> Ctrl+U
