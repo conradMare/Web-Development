@@ -1,0 +1,9 @@
+https://gitforwindows.org/
+
+1.Download Git-2.45.2-64-bit
+
+2.Run Install,
+
+3.Make sure "Windows Explorer Integration" is checked,
+
+4.Keep defaults of the rest.
