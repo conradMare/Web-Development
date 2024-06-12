@@ -1,0 +1,7 @@
+$ node -v -> Check version of node
+
+$ node -> Initiate the Node REPL
+
+Ctrl+C -> Exit Node REPL
+
+$node index.js -> Run JS Files
