@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
+
     const today = new Date("June 15, 2024 06:17:00");
     const day = today.getDay();
 
@@ -13,12 +14,12 @@ app.get("/", (req, res) => {
 
     if (day === 0 || day === 6) {
         type = "the weekend";
-        adv = "it's time have some fun";
+        adv = "it's time to have some fun";
     }
 
     res.render("index.ejs", {
         dayType: type,
-        advice: adv,
+        advice: adv
     })
 })
 
