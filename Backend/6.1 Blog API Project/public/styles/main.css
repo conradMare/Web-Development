@@ -13,10 +13,11 @@ a {
   padding: 0;
   border: none;
   font-family: "Arial", sans-serif;
+  text-align: center;
 }
 
 body {
-  background-color: #f7f9fc;
+  background-color: #d5d5d5a5;
   color: #333;
   line-height: 1.6;
 }
@@ -67,13 +68,13 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #007bff;
+  border-color: #002d5e;
 }
 
 a,
 button {
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #0b4787;
   color: #fff;
   padding: 10px;
   font-size: 1em;
