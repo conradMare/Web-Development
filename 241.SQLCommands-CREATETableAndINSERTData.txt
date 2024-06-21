@@ -1,0 +1,19 @@
+Exercise done in SQLite Online IDE:
+
+(Docs -> https://www.w3schools.com/sql/)
+
+>>> Creating a new Table with a PRIMARY KEY:
+    CREATE TABLE products (
+    id INT NOT NULL,
+    name STRING,
+    price MONEY,
+    PRIMARY KEY (id)
+    )
+
+>>> Inserting data INTO Table 'products', 2 ways:
+    1 - Specify column names:
+    INSERT INTO products (id, name, price)
+    VALUES (1,'Pen',1.20);
+    2- If inserting into ALL columns, it's not necessary to add the column names:
+    INSERT INTO products 
+    VALUES (1,'Pen',1.20)
