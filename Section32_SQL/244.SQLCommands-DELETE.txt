@@ -1,0 +1,7 @@
+Exercise done in SQLite Online IDE:
+
+(Docs -> https://www.w3schools.com/sql/)
+
+>>> Deleting data from a table (MAKE SURE TO USE THE WHERE CLAUSE OR EVERYTHING WILL BE DELETE!!!):
+DELETE FROM products
+WHERE id=2
