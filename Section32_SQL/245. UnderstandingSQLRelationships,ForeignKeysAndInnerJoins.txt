@@ -1,0 +1,42 @@
+Exercise done in SQLite Online IDE:
+
+(Docs -> https://www.w3schools.com/sql/)
+
+>>> Create a new Table with FOREIGN KEYS:
+CREATE TABLE orders (
+  id INT NOT NULL,
+  order_number INT,
+  customer_id INT,
+  product_id INT,
+  PRIMARY KEY (id),
+  FOREIGN KEY (customer_id) REFERENCES customers (id),
+  FOREIGN KEY (product_id) REFERENCES products (id)
+ )
+
+ >>> Insert data into the orders table:
+INSERT INTO orders
+VALUES (1, 4362, 2, 1)
+
+>>> Create customers table and populate:
+CREATE TABLE customers (
+  id INT,
+  first_name STRING,
+  last_name STRING,
+  address STRING,
+  PRIMARY KEY (id)
+)
+
+INSERT INTO customers VALUES (1, 'John', 'Doe', '32 Cherry Blvd');
+INSERT INTO customers VALUES (2, 'Angela', 'Yu', '12 Sunset Drive');
+-- fetch some values
+SELECT * FROM customers WHERE first_name = 'John';
+
+>>> Using the JOIN keyword to link tables (join orders and customers table):
+SELECT orders.order_number, customers.first_name, customers.last_name, customers.address
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.id;
+
+>>> JOIN orders and products table:
+SELECT orders.order_number, products.name, products.price, products.stock
+FROM orders
+INNER JOIN products ON product_id = products.id;
