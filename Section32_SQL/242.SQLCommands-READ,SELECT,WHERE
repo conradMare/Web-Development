@@ -1,0 +1,15 @@
+Exercise done in SQLite Online IDE:
+
+(Docs -> https://www.w3schools.com/sql/)
+
+>>> Reading ALL the data from a table:
+SELECT * FROM 'products';
+
+>>> Reading data from a specific COLUMN:
+SELECT name, price FROM 'products';
+
+>>> Reading data from a specific ROW (Use WHERE):
+SELECT * FROM 'products' WHERE id=1;
+
+>>> Reading data from a ROW using a specific column name:
+SELECT name FROM 'products' WHERE id=1;
