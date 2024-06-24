@@ -1,0 +1,19 @@
+Exercises done in pgAdmin:
+
+
+CREATE TABLE with Postgres:
+
+CREATE TABLE friends (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    is_cool BOOLEAN
+);
+
+SERIAL -> Auto-increments the "id" keyword.
+
+VARCHAR -> Will limit the data up to the size specified in the parentheses,
+           If hte size is less, the size will be decreased to efficiently
+           store data.
+
+PostgreSQL Docs: https://www/postgresql.org/docs/current/datatype.html
