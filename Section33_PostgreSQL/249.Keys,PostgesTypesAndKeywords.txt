@@ -13,7 +13,7 @@ CREATE TABLE friends (
 SERIAL -> Auto-increments the "id" keyword.
 
 VARCHAR -> Will limit the data up to the size specified in the parentheses,
-           If hte size is less, the size will be decreased to efficiently
+           If the size is less, the size will be decreased to efficiently
            store data.
 
 PostgreSQL Docs: https://www/postgresql.org/docs/current/datatype.html
