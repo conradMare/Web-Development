@@ -1,0 +1,37 @@
+Exercises done in pgAdmin.
+
+Create a new table called "world_food":
+CREATE TABLE world_food (
+    id SERIAL PRIMARY KEY,
+    country VARCHAR(45),
+    rice_production FLOAT,
+    wheat_production FLOAT
+);
+
+Import .csv "world-food.csv".
+
+SELECT ALL:
+SELECT * FROM <TABLE>;
+
+SELECT COLUMN:
+SELECT <COLUMN> FROM <TABLE>;
+
+SELECT MULTI-COLUMN:
+SELECT <COLUMN>, <COLUMN> FROM <TABLE>;
+
+WHERE EQUALS:
+SELECT <COLUMN> FROM <TABLE> WHERE <CONDITION> = ' ';
+
+WHERE MORE THAN:
+SELECT <COLUMN> FROM <TABLE> WHERE <CONDITION> > ' ';
+
+WHERE LIKE:
+SELECT <COLUMN> FROM <TABLE> WHERE <COLUMN> LIKE <PATTERN>;
+Example -> SELECT country
+           FROM world_food
+           WHERE country LIKE 'U' || '%';
+
+WHERE LIKE (pattern with the character at the end of the String)"
+Example -> SELECT country
+           FROM world_food
+           WHERE country LIKE '%' || 'a';
