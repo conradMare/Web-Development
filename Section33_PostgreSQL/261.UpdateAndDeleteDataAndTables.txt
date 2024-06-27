@@ -1,0 +1,72 @@
+Exercises done in pgAdmin.
+
+ALTER TABLE:
+ALTER TABLE <TABLE TO ALTER>
+    <DO SOMETHING>
+
+Example:
+ALTER TABLE student
+    Rename TO user;
+
+ALTER schema of COLUMN:
+ALTER TABLE user
+    ALTER COLUMN first_name TYPE VARCHAR(20);
+
+ADD a new COLUMN:
+ALTER TABLE contact_detail
+    ADD email TEXT;
+
+Example:
+CREATE TABLE example (
+    a INTEGER,
+    b INTEGER,
+    c INTEGER,
+    UNIQUE (a, c)
+);
+
+Challenge:
+ALTER TABLE visited_countries
+	ADD UNIQUE (user_id, country_code);
+
+DROP TABLE: (Caution!!!)
+DROP TABLE <TABLE NAME>
+
+Example from prev. exercise:
+DROP TABLE IF EXISTS visited_countries, user;
+
+UPDATE DATA:
+UPDATE <TABLE TO UPDATE>
+SET <COLUMN TO UPDATE> = value, ...
+WHERE <SOME CONDITION>
+
+Challenge:
+UPDATE users
+    SET name = 'Coen'
+    WHERE id = 1;
+
+ORDER BY:
+SELECT *
+FROM <SOME TABLE>
+ORDER BY <SOME CONDITION>;
+
+Example:
+SELECT *
+FROM users
+ORDER BY id ASC;
+
+Challenge:
+SELECT *
+FROM users
+ORDER BY name DESC;
+
+DELETE FROM:
+DELETE FROM <TABLE TO DELETE>
+WHERE <SOME CONDITION>
+
+Challenge:
+DELETE FROM visited_countries
+WHERE id = 3;
+
+2nd Option: (Use AND)
+DELETE FROM visited_countries
+WHERE user_id = 1 AND country_code = 'FR';
