@@ -1,3 +1,23 @@
 <%- include("partials/header.ejs") %>
 
+<h1>Hello World!</h1>
+<br />
+
+<% if (locals.title && local.entry) { %>
+<p><%= title%></p>
+<%} else {%>
+<h6>Write a post below</h6>
+<%}%>
+
+<form action="/submit" method="POST">
+  <input type="text" name="title" placeholder="Title" />
+  <br />
+  <hr />
+  <input type="text" name="description" placeholder="Entry" />
+  <br />
+  <br />
+  <input type="submit" value="Submit" />
+</form>
+<br>
+<button href="blogPost.ejs">Previous Posts</button>
 <%- include("partials/footer.ejs") %>

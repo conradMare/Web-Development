@@ -11,6 +11,13 @@ app.get("/", (req,res) => {
     res.render("index.ejs");
 })
 
+app.post("/submit", (req,res) => {
+    const newEntry = req.body["title"] + req.body["description"];
+    res.render("index.ejs", {
+        entry: newEntry
+    });
+})
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 })
